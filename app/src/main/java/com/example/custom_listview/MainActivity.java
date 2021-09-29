@@ -26,19 +26,29 @@ public class MainActivity extends AppCompatActivity {
         int[] imageId = {
                 R.drawable.indah,
                 R.drawable.yerin,
-                R.drawable.umji
+                R.drawable.umji,
+                R.drawable.eunha,
+                R.drawable.jeniie,
+                R.drawable.joy
+
         };
 
         String[] name = {
                 "Indah",
                 "Yerin",
-                "Umji"
+                "Umji",
+                "Eunha",
+                "Jennie",
+                "Joy"
         };
 
         String[] phoneNo = {
                 "0812345678",
                 "0822228888",
-                "0899229929"
+                "0899229929",
+                "08712112289",
+                "08233278121",
+                "08518967842"
         };
 
         ArrayList<User> userArrayList = new ArrayList<>();
@@ -67,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
 
     }
 }

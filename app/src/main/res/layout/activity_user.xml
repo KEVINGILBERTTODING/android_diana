@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="220dp"
-        android:background="@color/teal_200">
+        android:background="@color/lightblue">
 
     </RelativeLayout>
 
@@ -20,7 +20,13 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:src="@drawable/yerin" />
+        android:src="@drawable/yerin"
+
+        app:civ_border_width="6dp"
+        app:civ_border_color="@color/white"
+
+
+        />
 
     <TextView
         android:id="@+id/scode_profile"
@@ -52,7 +58,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="example"
-                android:textColor="@color/black"
+                android:fontFamily="@font/sf"
+                android:textColor="@color/white"
                 android:textSize="26sp" />
 
         </LinearLayout>
@@ -79,6 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Phone"
+                android:fontFamily="@font/sfre"
                 android:textSize="12sp" />
 
             <TextView
@@ -86,10 +94,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="+8222222222"
+                android:fontFamily="@font/sfre"
                 android:textColor="@color/black"
                 android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:fontFamily="@font/sfre"
+                android:textSize="12sp" />
+
+
+
 
         </LinearLayout>
 
     </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="70dp"
+        android:text="Email"
+
+        />
+
+
+
+
 </RelativeLayout>

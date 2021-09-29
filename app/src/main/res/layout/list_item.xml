@@ -19,7 +19,9 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/indah"/>
+                android:src="@drawable/indah"
+
+                />
 
 
             <LinearLayout
@@ -34,6 +36,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="example"
+                    android:fontFamily="@font/sfli"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"/>

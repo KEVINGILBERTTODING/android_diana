@@ -13,11 +13,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/sf"
             android:text="Contact"
-            android:textAlignment="center"
-            android:textColor="@color/teal_200"
-            android:textSize="26sp"
+            android:textAlignment="gravity"
+            android:textColor="@color/lightblue"
+            android:textSize="35dp"
             android:textStyle="bold" />
     </RelativeLayout>
 
